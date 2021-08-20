@@ -14,6 +14,7 @@ cp -aRf /tmp/src/*.html ./
 DATE=`date "+%Y-%m-%d"` 
 echo "App was built on $DATE <br>" >> info.html
 echo "Astra inclinant, sed non obligant" >> info.html
+echo "Changed in github" >> info.html
 
 # Fix source directory permissions
 fix-permissions ./
