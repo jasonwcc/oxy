@@ -12,7 +12,7 @@ echo "---> Installing application source"
 cp -aRf /tmp/src/*.html ./
 
 DATE=`date "+%Y-%m-%d"`
-echo "Application was built on $DATE \n" >> info.html
+echo "This epic program was built by J on $DATE" >> info.html
 echo "Astra inclinant, sed non obligant" >> info.html
 
 # Fix source directory permissions
