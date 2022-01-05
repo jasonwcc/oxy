@@ -9,9 +9,12 @@ echo "---> Enabling s2i support in httpd24 image"
 config_s2i
 
 echo "---> Installing application source"
-cp -Rf /tmp/src/*.html ./
+# Customization - delete all lines below and redo
+cp -Raf /tmp/src/*.html ./
 echo "`date +%Y-%m-%d`" >> info.html
 echo "Astra inclinant, sed non obligant" >> info.html
+#End of customization for exam
+
 # Fix source directory permissions
 fix-permissions ./
 
